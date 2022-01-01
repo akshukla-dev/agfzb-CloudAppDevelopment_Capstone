@@ -1,11 +1,11 @@
   applications:
   - name: djangoapp
     routes:
-      - route: bestcars.eu-gb.cf.appdomain.cloud
+      - route: bestcarsaks.eu-gb.eu-gb.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
   - name: djangoapp-nginx
     routes:
-      - route: bestcars.eu-gb.cf.appdomain.cloud/static
+      - route: bestcarsaks.eu-gb.eu-gb.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
