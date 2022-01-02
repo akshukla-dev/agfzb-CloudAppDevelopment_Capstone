@@ -27,7 +27,7 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ["bestcarsaks.eu-gb.eu-gb.mybluemix.net"]
+ALLOWED_HOSTS = ["bestcarsaks.eu-gb.mybluemix.net"]
 
 
 # Application definition
